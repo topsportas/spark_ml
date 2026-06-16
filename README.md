@@ -135,6 +135,12 @@ model_evaluations = model.predict(X_test[:5])
 - Batch inference successfully run on Delta table
 - Model predictions verified against test set
 
+### Model Serving Predictions (final cell output)
+
+![Model Serving Predictions](screenshots/model-serving-predictions.png)
+
+The production model loaded from the MLflow registry successfully returns probability scores for 5 test samples.
+
 ---
 
 ## Repository Structure
